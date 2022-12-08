@@ -3,9 +3,13 @@
 
 int main(void)
 {
+	
+	int nData = 10;
+	printf("%p\n", &nData);
+	printf("%p\n", (&nData+1));
 
-	printf("Hello World\n");
+
+
+
 	return 0;
-
-
 }
